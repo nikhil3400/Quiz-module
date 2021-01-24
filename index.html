@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Quiz</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="quiz.js" defer></script>
+	</head>
+	<body>
+		<div id="header">
+			<h1 id="header-content">Quiz</h1>
+		</div>
+		<div class="app-body">
+		<h1 id="ans-key">Answer key</h1>
+		<div id="quiz-container">
+			<div id="quiz-questions">
+			<h2 id="ques">Question here</h2>
+			<ul id="opts">
+				<li>
+					<input type="radio" id="opt1" name="ans" />
+					<label id="a-text" class="options">Option 1</label>
+				</li>
+				<li>
+					<input type="radio" id="opt2" name="ans" />
+					<label id="b-text" class="options">Option 2</label>
+				</li>
+				<li>
+					<input type="radio" id="opt3" name="ans" />
+					<label id="c-text" class="options">Option 3</label>
+				</li>
+				<li>
+					<input type="radio" id="opt4" name="ans" />
+					<label id="d-text" class="options">Option 4</label>
+				</li>
+			</ul>
+			<div id="correct"><p id="correct-text">Correct</p></div>
+			<div id="incorrect"><p id="incorrect-text">Incorrect</p></div>
+			<div id="button">
+				<button id="submit-btn">Submit</button>
+				<button id="next-btn">Next</button>		
+			</div>
+		</div>
+		<div id="quiz-answers">
+			
+		</div>
+		</div>
+		<button id="reset">Restart</button>
+	</div>
+	</body>
+</html>
